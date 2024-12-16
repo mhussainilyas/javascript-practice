@@ -68,7 +68,7 @@
 //      Array CRUD Operation
 // ==============================
 
-// let std = ["Hussain", 'Khuzaima', 'Asad', "Ashfaq", "Shahran"];
+let std = ["Hussain", 'Khuzaima', 'Asad', "Ashfaq", "Shahran"];
 
 // push();
 // std.push("Konain");
@@ -94,7 +94,7 @@
 // std.splice();
 // std.splice(1); //startingValue
 // std.splice(1, 1); //deletecount
-// std.splice(1, 1, 'Bilal'); //Items
+// std.splice(1, 1, 'Bilal'); //UpdateItems
 // std.splice(1, 0, 'Bilal'); //add item without delete
 // console.log(std.splice());
 // console.log(std.splice(1));
@@ -263,8 +263,8 @@
 //      Reducer() Callback
 // ==============================
 
-let productPrice = [1800, 3200, 4500, 2300, 6700];
-let totalPrice = productPrice.reduce((accumulator, currentVal) => {
-    return accumulator + currentVal;
-}, 0);
-console.log(totalPrice);
+// let productPrice = [1800, 3200, 4500, 2300, 6700];
+// let totalPrice = productPrice.reduce((accumulator, currentVal) => {
+//     return accumulator + currentVal;
+// }, 0);
+// console.log(totalPrice);
